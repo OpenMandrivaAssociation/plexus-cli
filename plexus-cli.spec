@@ -36,7 +36,7 @@
 
 Name:           %{parent}-%{subname}
 Version:        1.2
-Release:        9
+Release:        11
 Summary:        Command Line Interface facilitator for Plexus
 License:        ASL 2.0 and Plexus
 Group:          Development/Java
