@@ -5,7 +5,7 @@
 
 Name:           %{parent}-%{subname}
 Version:        1.6
-Release:        2.1
+Release:        2.2
 Epoch:          0
 Summary:        Command Line Interface facilitator for Plexus
 Group:		Development/Java
@@ -23,7 +23,7 @@ Patch0:         plexus-cli-licenseheaders.patch
 
 BuildArch:      noarch
 
-
+BuildRequires:	junit
 BuildRequires:  maven-local
 BuildRequires:  mvn(commons-cli:commons-cli)
 BuildRequires:  mvn(org.codehaus.plexus:plexus-components:pom:)
@@ -52,6 +52,8 @@ Javadoc for %{name}.
 cp -p %{SOURCE1} .
 
 %mvn_file : plexus/cli
+
+%pom_add_dep junit:junit::test
 
 %build
 %mvn_build
