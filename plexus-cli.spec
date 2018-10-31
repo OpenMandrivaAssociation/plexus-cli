@@ -5,7 +5,7 @@
 
 Name:           %{parent}-%{subname}
 Version:        1.6
-Release:        2.2
+Release:        2.3
 Epoch:          0
 Summary:        Command Line Interface facilitator for Plexus
 Group:		Development/Java
