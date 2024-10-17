@@ -11,7 +11,7 @@ Summary:        Command Line Interface facilitator for Plexus
 Group:		Development/Java
 License:        ASL 2.0
 
-URL:            http://plexus.codehaus.org/
+URL:            https://plexus.codehaus.org/
 # git clone git://github.com/codehaus-plexus/plexus-cli.git
 # git --git-dir plexus-cli/.git archive --prefix plexus-cli-1.6/ 8927458e81 | xz >plexus-cli-1.6.tar.xz
 Source0:        %{name}-%{version}.tar.xz
